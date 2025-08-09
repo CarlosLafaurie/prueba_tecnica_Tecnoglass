@@ -29,27 +29,27 @@ Aplicación web desarrollada con Vue 3 y Vite que permite buscar películas, exp
 
 ## Estructura del proyecto
 
-pelistec/ 
-├── public/ 
-│ └── index.html 
-├── src/ 
-│   ├── assets/ 
-│   └── main.css 
-│   ├── components/ 
-│   │   ├── NavBar.vue 
-│   │   ├── AppBar.vue 
-│   │   ├── SearchBar.vue 
-│   │   ├── MovieCarousel.vue 
-│   │   ├── MovieList.vue 
-│   │   └── MovieCard.vue 
-│   ├── views/ 
-│   │   ├── Home.vue 
-│   │   └── Loading.vue 
-│   ├── services/ 
-│   │   └── movieService.js 
-│   ├── App.vue 
-│   └── main.js 
-└── .env
+pelistec/                                                              
+├── public/                                                
+│ └── index.html                                       
+├── src/                                              
+│ ├── assets/                                                   
+│ │ └── main.css                                   
+│ ├── components/                                   
+│ │ ├── NavBar.vue                                       
+│ │ ├── AppBar.vue                                                
+│ │ ├── SearchBar.vue                                                 
+│ │ ├── MovieCarousel.vue                                                   
+│ │ ├── MovieList.vue                                                         
+│ │ └── MovieCard.vue                                                   
+│ ├── views/                                                    
+│ │ ├── Home.vue                                         
+│ │ └── Loading.vue                                     
+│ ├── services/                                          
+│ │ └── movieService.js                                         
+│ ├── App.vue                                              
+│ └── main.js                                              
+└── .env                                              
 
 ---
 
@@ -83,7 +83,6 @@ Se utiliza la [OMDb API](https://www.omdbapi.com/) para obtener información de 
 
 Clave de API defunida en el archivo `.env`:
 
-```env
 VITE_OMDB_API_KEY=clave_api
 
 ---
@@ -169,19 +168,16 @@ Componente principal.
 
 ## Project Setup
 
-```sh
 npm install
 
 ---
 
 ## Compile and Hot-Reload for Development
 
-```sh
 npm run dev
 
 ---
 
 ## Compile and Minify for Production
 
-```sh
 npm run build
